@@ -1,0 +1,17 @@
+# Environment secrets – never commit!
+.env
+
+# FAISS vector store (generated artefact)
+faiss_index/
+
+# Uploaded PDF documents
+docs/
+
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
